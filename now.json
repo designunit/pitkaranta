@@ -6,8 +6,9 @@
     ],
     "routes": [
         {
-            "src": "^/(\\d)/?",
-            "dest": "/index.html"
+            "src": "^/(1|2|3|4|5|about|map|is|team)/?",
+            "status": 308,
+            "dest": "/"
         }
     ]
 }
