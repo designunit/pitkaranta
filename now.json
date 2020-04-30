@@ -1,4 +1,10 @@
 {
     "version": 2,
-    "alias": ["pitkaranta.unit4.io", "pitkaranta"]
+    "alias": ["pitkaranta.unit4.io", "pitkaranta"],
+    "routes": [
+        {
+            "src": "^/(\\d)/?",
+            "dest": "/index.html"
+        }
+    ]
 }
