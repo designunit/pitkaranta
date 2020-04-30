@@ -102,8 +102,3 @@ typings/
 # ALSO
 
 .DS_Store
-
-/ readymag/sorry.html
-/ readymag/.htaccess
-/ readymag/nginx_rmwebsite.conf
-/ readymag/snippets
