@@ -1,16 +1,14 @@
 {
     "version": 2,
-    "name": "pitkaranta",
-    "builds": [
-        {
-            "src": "/readymag/**",
-            "use": "@now/static"
-        }
+    "alias": [
+        "pitkaranta.unit4.io",
+        "pitkaranta"
     ],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/readymag/$1"
+            "src": "^/(1|2|3|4|5|about|map|is|team)/?",
+            "status": 308,
+            "dest": "/"
         }
     ]
 }

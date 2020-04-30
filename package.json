@@ -1,0 +1,20 @@
+{
+  "name": "pitkaranta",
+  "version": "1.0.0",
+  "description": "metrika",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf public && cp -r readymag public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designunit/pitkaranta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designunit/pitkaranta/issues"
+  },
+  "homepage": "https://github.com/designunit/pitkaranta#readme"
+}

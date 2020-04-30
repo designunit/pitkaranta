@@ -107,3 +107,6 @@ typings/
 / readymag/.htaccess
 / readymag/nginx_rmwebsite.conf
 / readymag/snippets
+
+.now
+public
