@@ -13,8 +13,8 @@
             "dest": "/readymag/index.html"
         },
         {
-            "src": "/(.*)",
-            "dest": "/readymag/$1"
+            "src": "^/[.a-zA-Z0-9-]+(/(.*))?",
+            "dest": "/readymag/$2"
         }
     ]
 }
