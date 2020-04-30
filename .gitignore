@@ -103,10 +103,10 @@ typings/
 
 .DS_Store
 
-/ readymag/sorry.html
-/ readymag/.htaccess
-/ readymag/nginx_rmwebsite.conf
-/ readymag/snippets
+/readymag/sorry.html
+/readymag/.htaccess
+/readymag/nginx_rmwebsite.conf
+/readymag/snippets
 
 .now
 public
