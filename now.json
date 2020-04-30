@@ -9,6 +9,10 @@
     ],
     "routes": [
         {
+            "src": "/(\\d)/?",
+            "dest": "/readymag/index.html"
+        },
+        {
             "src": "/(.*)",
             "dest": "/readymag/$1"
         }
