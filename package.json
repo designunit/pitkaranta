@@ -5,7 +5,8 @@
     "description": "pitkaranta.unit4.io site",
     "scripts": {
         "build": "rm -rf public && cp -r readymag public && npm run fav",
-		"fav": "png-to-ico favicon.png > public/dist/img/favicons/favicon.ico"
+        "timeweb-hack": "echo 'duplicating index.html to support SPA' && cp public/index.html public/about.html && cp public/index.html public/map.html && cp public/index.html public/is.html && cp public/index.html public/team.html",
+        "fav": "png-to-ico favicon.png > public/dist/img/favicons/favicon.ico"
     },
     "repository": {
         "type": "git",
